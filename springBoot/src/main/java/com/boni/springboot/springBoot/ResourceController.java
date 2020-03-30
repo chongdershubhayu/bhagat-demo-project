@@ -8,9 +8,15 @@ import org.springframework.web.bind.annotation.RestController;
 public class ResourceController {
 
 	@RequestMapping("/{userName}")
-	public String login(@PathVariable String userName) {
+	public String loginUser(@PathVariable String userName) {
 		
 		return ("<P>Welcome User</P>" +userName);
+	}
+	
+	@RequestMapping("/")
+	public String login() {
+		
+		return ("<P>Welcome</P>");
 	}
 }
 
