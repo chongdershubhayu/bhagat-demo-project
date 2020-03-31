@@ -3,16 +3,16 @@ phases:
 	install:
     runtime-versions:
       java: openjdk8
-  pre-build:
+  pre_build:
     commands:
-    - echo "Entered the pre-build phase"
+    - echo "Entered the pre_build phase"
      - java -version
       - mvn package
   build:
     commands:
     - echo "Entered build phase"
     - mvn clean package
-  post-build:
+  post_build:
     commands:
     - echo "Entered the post-build phase"
     
