@@ -1,4 +1,4 @@
-package com.boni.springboot.springBoot;
+package com.example.test;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
