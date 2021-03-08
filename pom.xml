@@ -9,8 +9,8 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.boni.springboot</groupId>
-	<artifactId>springBoot</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<artifactId>springBootApp</artifactId>
+	<version>1.0</version>
 	<name>springBoot</name>
 	<packaging>jar</packaging>
 	<description>Demo project for Spring Boot</description>
